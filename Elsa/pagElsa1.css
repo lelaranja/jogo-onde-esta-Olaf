@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../IMG/Mostro.jpg);
+    background-size: cover;
+}
+
+.decisaoPergunta1 h1 {
+    padding-bottom: 50px;
+    font-family: 'Permanent Marker', cursive;
+    color: #94D2BD;
+}
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+.decisaoPergunta1 {
+    padding: 20px;
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Righteous", cursive;
+    font-weight: 200;
+    font-size: 20px;
+    color: #001219;
+    width: 50%;
+    background-color: #0a9396;
+    border-radius: 10%;
+}
+
+.escolhas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+    width: 50%;
+}
+
+.opcoes1{
+    padding-bottom: 30px;
+    font-family: "Righteous", cursive;
+    font-weight: 100;
+    font-size: 20px;
+    align-items: center;
+}
+.botaoB {
+    border-radius: 20px;
+    background-color: #023047;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+}
+
+.botaoB {
+    text-decoration: none;
+    color: #ffb703;
+    font-family: "Righteous", cursive;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.botaoB:hover {
+    cursor: pointer;
+}
+
+.bt1op1 {
+    display: flex;
+}

@@ -1,0 +1,13 @@
+@media (max-width:699px){
+    .personagens:hover{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        display: none;
+    }
+    .catioros{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
