@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fjalla+One&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #283618;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.principal h1{
+    font-family: "Righteous", cursive;
+    font-weight: 200;
+    font-size: 80px;
+    color: red;
+    padding-top: 20px;
+}
+.principal h2{
+    font-family: "Righteous", cursive;
+    font-weight: 200;
+    font-size: 30px;
+    color: #606c38;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#image{
+    width: 650px;
+    padding-bottom: 5px;
+}
+
+.botaoDeNovo {
+    color: black;
+    font-weight: 200;
+    font-size: 10px;
+    border-radius: 20px;
+    width: 200px;
+    height: 70px;
+    background-color: #488FB1;
+}
+.botaoDeNovo a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    color: #0E185F;
+}
