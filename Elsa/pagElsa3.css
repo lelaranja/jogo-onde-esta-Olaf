@@ -9,14 +9,14 @@
 }
 
 body {
-    background-image: url(../IMG/oaken.jpg);
+    background-image: url(../IMG/Castelo.jpg);
     background-size: cover;
 }
 
 .decisaoPergunta2 h1 {
     padding-bottom: 50px;
     font-family: 'Permanent Marker', cursive;
-    color: #614124;
+    color: #94D2BD;
 }
 .main{
     display: flex;
@@ -39,9 +39,9 @@ body {
     font-family: "Righteous", cursive;
     font-weight: 200;
     font-size: 20px;
-    color: #525E75;
+    color: #001219;
     width: 50%;
-    background-color: #CEAB93;
+    background-color: #0a9396;
     border-radius: 10%;
 }
 
@@ -60,7 +60,6 @@ body {
     font-weight: 100;
     font-size: 20px;
     align-items: center;
-    color: white;
 }
 .botaoB {
     border-radius: 20px;

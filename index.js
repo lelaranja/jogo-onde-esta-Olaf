@@ -1,37 +1,110 @@
-function irPag2Elsa (){
+function irPag2Elsa() {
     var escolha = prompt('Qual a sua escolha?')
     var tentativa = 1
-    while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b"){
-        if (tentativa == 0){
-            return location = './gameover1Elsa.html'
-        } else{
-            alert (`Resposta inválida! Você tem mais ${tentativa} tentativa`)
+    while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b") {
+        if (tentativa == 0) {
+            return location = './gameoverAnna.html'
+        } else {
+            alert(`Resposta inválida! Você tem mais ${tentativa} tentativa`)
             escolha = prompt('Qual a sua escolha?')
         }
-        tentativa --;
+        tentativa--;
     }
-    if (escolha.toLowerCase() == "a") {
+    if (escolha.toLowerCase() == "b") {
         return location = './pagElsa2.html'
     } else {
-        return location = './gameover1Elsa.html'
+        return location = './gameoverpag1Elsa.html'
     }
 }
 
-function irPag3Elsa (){
+function irPag3Elsa() {
     var escolha = prompt('Qual a sua escolha?')
     var tentativa = 1
-    while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b"){
-        if (tentativa == 0){
-            return location = './gameover1Elsa.html'
-        } else{
-            alert (`Resposta inválida! Você tem mais ${tentativa} tentativa`)
+    while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b") {
+        if (tentativa == 0) {
+            return location = './gameoverAnna.html'
+        } else {
+            alert(`Resposta inválida! Você tem mais ${tentativa} tentativa`)
             escolha = prompt('Qual a sua escolha?')
         }
-        tentativa --;
+        tentativa--;
+    }
+    if (escolha.toLowerCase() == "b") {
+        return location = './pagElsa3.html'
+    } else {
+        return location = './gameoverpag2Elsa.html'
+    }
+}
+
+function irPagFinalElsa() {
+    var escolha = prompt('Qual a sua escolha?')
+    var tentativa = 1
+    while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b") {
+        if (tentativa == 0) {
+            return location = './gameoverAnna.html'
+        } else {
+            alert(`Resposta inválida! Você tem mais ${tentativa} tentativa`)
+            escolha = prompt('Qual a sua escolha?')
+        }
+        tentativa--;
     }
     if (escolha.toLowerCase() == "a") {
-        return location = './pagElsa2.html'
+        return location = './pagFinalElsa.html'
     } else {
-        return location = './gameover1Elsa.html'
+        return location = './gameover3Elsa.html'
+    }
+}
+function irPag2Anna() {
+    var escolha = prompt('Qual a sua escolha?')
+    var tentativa = 1
+    while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b") {
+        if (tentativa == 0) {
+            return location = './gameoverAnna.html'
+        } else {
+            alert(`Resposta inválida! Você tem mais ${tentativa} tentativa`)
+            escolha = prompt('Qual a sua escolha?')
+        }
+        tentativa--;
+    }
+    if (escolha.toLowerCase() == "a") {
+        return location = './pagAnna2.html'
+    } else {
+        return location = './gameoverpag1Anna.html'
+    }
+}
+function irPag3Anna() {
+    var escolha = prompt('Qual a sua escolha?')
+    var tentativa = 1
+    while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b") {
+        if (tentativa == 0) {
+            return location = './gameoverAnna.html'
+        } else {
+            alert(`Resposta inválida! Você tem mais ${tentativa} tentativa`)
+            escolha = prompt('Qual a sua escolha?')
+        }
+        tentativa--;
+    }
+    if (escolha.toLowerCase() == "b") {
+        return location = './pagAnna3.html'
+    } else {
+        return location = './gameoverpag2Anna.html'
+    }
+}
+function irPagFinalAnna() {
+    var escolha = prompt('Qual a sua escolha?')
+    var tentativa = 1
+    while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b") {
+        if (tentativa == 0) {
+            return location = './gameoverAnna.html'
+        } else {
+            alert(`Resposta inválida! Você tem mais ${tentativa} tentativa`)
+            escolha = prompt('Qual a sua escolha?')
+        }
+        tentativa--;
+    }
+    if (escolha.toLowerCase() == "a") {
+        return location = './pagAnnaFinal.html'
+    } else {
+        return location = './gameoverpag3Anna.html'
     }
 }
