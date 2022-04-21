@@ -1,13 +1,25 @@
 @media (max-width:699px){
-    .personagens:hover{
+    .principalPers{
         display: flex;
         flex-direction: column;
     }
-    h1{
-        display: none;
-    }
-    .catioros{
+    .personagens{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: none;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #titulo p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    footer{
+        display: none;
     }
 }

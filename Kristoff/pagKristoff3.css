@@ -13,12 +13,13 @@ body {
     background-size: cover;
 }
 
-.decisaoPergunta2 h1 {
+.decisaoPergunta3 h1 {
     padding-bottom: 50px;
     font-family: 'Permanent Marker', cursive;
     color: #94D2BD;
 }
-.main{
+
+.main3 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -29,7 +30,7 @@ body {
     width: 100%;
 }
 
-.decisaoPergunta2 {
+.decisaoPergunta3 {
     padding: 20px;
     display: flex;
     margin-left: 200px;
@@ -45,7 +46,7 @@ body {
     border-radius: 10%;
 }
 
-.escolhas {
+.escolhas3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -54,14 +55,15 @@ body {
     width: 50%;
 }
 
-.opcoes1{
+.opcoes3 {
     padding-bottom: 30px;
     font-family: "Righteous", cursive;
     font-weight: 100;
     font-size: 20px;
     align-items: center;
 }
-.botaoB {
+
+.botaoB3 {
     border-radius: 20px;
     background-color: #023047;
     padding: 20px;
@@ -70,7 +72,7 @@ body {
     width: 250px;
 }
 
-.botaoB {
+.botaoB3 {
     text-decoration: none;
     color: #ffb703;
     font-family: "Righteous", cursive;
@@ -78,10 +80,10 @@ body {
     font-size: 20px;
 }
 
-.botaoB:hover {
+.botaoB3:hover {
     cursor: pointer;
 }
 
-.bt1op1 {
+.bt1op3 {
     display: flex;
 }

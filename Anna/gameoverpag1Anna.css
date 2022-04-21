@@ -23,7 +23,7 @@ h1{
     padding-top: 20px;
     padding-bottom: 270px;
 }
-.GameOver1 p{
+.GameOver2 p{
     font-family: 'Fjalla One', sans-serif;
     font-weight: 500;
     font-size: 25px;
@@ -35,13 +35,14 @@ h1{
     align-self: center;
 }
 
-.GameOver1{
+.GameOver2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-self: center;
+    text-shadow: 0 0 0.2em #e63946, 0 0 0.2em #e63946;
 }
-.botaoGOver {
+.botaoGOver2 {
     color: black;
     font-weight: 200;
     font-size: 10px;
@@ -50,7 +51,7 @@ h1{
     height: 70px;
     background-color: #2C2D34;
 }
-.botaoGOver a{
+.botaoGOver2 a{
     text-decoration: none;
     display: flex;
     justify-content: center;

@@ -1,0 +1,127 @@
+/* Página 1  - Anna*/
+@media (max-width:699px) {
+    .decisaoPergunta1 {
+        margin: auto;
+        transform: scale(0.8, 0.8);
+    }
+
+    .escolhas {
+        margin: auto;
+        transform: scale(0.8, 0.8);
+    }
+
+    .bt1top1 {
+        transform: scale(0.8, 0.8);
+    }
+}
+
+@media (max-width:500px) {
+    .main {
+        display: inline;
+    }
+
+    .decisaoPergunta1 {
+        margin: auto;
+        transform: scale(0.7, 0.7);
+    }
+}
+
+/* Página 2  - Anna*/
+@media (max-width:699px) {
+    .decisaoPergunta2 {
+        margin: auto;
+        transform: scale(0.8, 0.8);
+    }
+
+    .escolhas2 {
+        margin: auto;
+        transform: scale(0.8, 0.8);
+    }
+
+    .bt1top2 {
+        transform: scale(0.8, 0.8);
+    }
+}
+
+@media (max-width:500px) {
+    .main2 {
+        display: inline;
+    }
+
+    .decisaoPergunta2 {
+        margin: auto;
+        transform: scale(0.7, 0.7);
+        padding: 20px;
+    }
+
+    h1 {
+        transform: scale(0.8, 0.8);
+    }
+}
+
+/* Página 3  - Anna*/
+@media (max-width:699px) {
+    .decisaoPergunta3 {
+        margin: auto;
+        transform: scale(0.8, 0.8);
+    }
+
+    .escolhas3 {
+        margin: auto;
+        transform: scale(0.8, 0.8);
+    }
+
+    .bt1top3 {
+        transform: scale(0.8, 0.8);
+    }
+}
+
+@media (max-width:500px) {
+    .main3 {
+        display: flex;
+    }
+
+    .decisaoPergunta3 {
+        transform: scale(0.7, 0.7);
+        padding: 20px;
+    }
+
+    .escolhas3 {
+        padding: 0px;
+    }
+}
+
+/* Game Over Genérico - Anna*/
+@media (max-width:699px) {
+    .pagGen {
+        transform: scale(0.8, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+    }
+
+}
+/* Game Over 1 - Anna*/
+@media (max-width:699px) {
+    .pag1GO {
+        transform: scale(0.8, 0.8);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        justify-self: center;
+    }
+
+}
+
+/* Página Vitória - Anna*/
+@media (max-width:699px) {
+    .vitoriaAnna {
+        transform: scale(0.85, 0.85);
+        display: flex;
+    }
+    .principal h1{
+        font-size: 40px;
+    }
+
+}

@@ -19,7 +19,7 @@ body {
     font-family: 'Permanent Marker', cursive;
     color: #F63E02;
 }
-.main{
+.main2{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -46,7 +46,7 @@ body {
     border-radius: 10%;
 }
 
-.escolhas {
+.escolhas2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -55,7 +55,7 @@ body {
     width: 50%;
 }
 
-.opcoes1{
+.opcoes2{
     padding-bottom: 30px;
     font-family: "Righteous", cursive;
     font-weight: 100;
@@ -63,7 +63,7 @@ body {
     align-items: center;
     color: black;
 }
-.botaoB {
+.botaoB2 {
     border-radius: 20px;
     background-color: #023047;
     padding: 20px;
@@ -72,7 +72,7 @@ body {
     width: 250px;
 }
 
-.botaoB {
+.botaoB2 {
     text-decoration: none;
     color: #ffb703;
     font-family: "Righteous", cursive;
@@ -80,10 +80,10 @@ body {
     font-size: 20px;
 }
 
-.botaoB:hover {
+.botaoB2:hover {
     cursor: pointer;
 }
 
-.bt1op1 {
+.bt1op2 {
     display: flex;
 }

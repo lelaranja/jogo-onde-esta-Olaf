@@ -12,7 +12,7 @@ function irPag2Elsa() {
         }
         tentativa--;
     }
-    if (escolha.toLowerCase() == "b") {
+    if (escolha.toLowerCase() == "a") {
         return location = './pagElsa2.html'
     } else {
         return location = './gameoverpag1Elsa.html'
@@ -43,7 +43,7 @@ function irPagFinalElsa() {
     var tentativa = 1
     while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b") {
         if (tentativa == 0) {
-            return location = './gameoverAnna.html'
+            return location = './gameoverElsa.html'
         } else {
             alert(`Resposta inválida! Você tem mais ${tentativa} tentativa`)
             escolha = prompt('Qual a sua escolha?')
@@ -53,7 +53,7 @@ function irPagFinalElsa() {
     if (escolha.toLowerCase() == "b") {
         return location = './pagVitoriaElsa.html'
     } else {
-        return location = './gameover3Elsa.html'
+        return location = './gameoverpag3Elsa.html'
     }
 }
 
