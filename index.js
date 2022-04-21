@@ -5,7 +5,7 @@ function irPag2Elsa() {
     var tentativa = 1
     while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b") {
         if (tentativa == 0) {
-            return location = './gameoverAnna.html'
+            return location = './gameoverElsa.html'
         } else {
             alert(`Resposta inválida! Você tem mais ${tentativa} tentativa`)
             escolha = prompt('Qual a sua escolha?')
@@ -24,7 +24,7 @@ function irPag3Elsa() {
     var tentativa = 1
     while (escolha.toLowerCase() != "a" && escolha.toLowerCase() != "b") {
         if (tentativa == 0) {
-            return location = './gameoverAnna.html'
+            return location = './gameoverElsa.html'
         } else {
             alert(`Resposta inválida! Você tem mais ${tentativa} tentativa`)
             escolha = prompt('Qual a sua escolha?')
